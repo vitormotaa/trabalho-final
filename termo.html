@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMO</title>
+    <link rel="stylesheet" href="css.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+</head>
+
+<body onload="criarJSON()">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="termo.html">Jogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pontuacao.html">Pontuação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastroPal.html">Cadastro de palavras</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="corpo">
+        <div id="titulo">
+            <h1>TERMO</h1>
+        </div>
+        <div id="usuario">
+        </div>
+        <div id="grade">
+            <div class="linha 1">
+                <div class="celula 1">
+                    <p></p>
+                </div>
+                <div class="celula 2">
+                    <p></p>
+                </div>
+                <div class="celula 3">
+                    <p></p>
+                </div>
+                <div class="celula 4">
+                    <p></p>
+                </div>
+                <div class="celula 5">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="linha 2">
+                <div class="celula 1">
+                    <p></p>
+                </div>
+                <div class="celula 2">
+                    <p></p>
+                </div>
+                <div class="celula 3">
+                    <p></p>
+                </div>
+                <div class="celula 4">
+                    <p></p>
+                </div>
+                <div class="celula 5">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="linha 3">
+                <div class="celula 1">
+                    <p></p>
+                </div>
+                <div class="celula 2">
+                    <p></p>
+                </div>
+                <div class="celula 3">
+                    <p></p>
+                </div>
+                <div class="celula 4">
+                    <p></p>
+                </div>
+                <div class="celula 5">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="linha 4">
+                <div class="celula 1">
+                    <p></p>
+                </div>
+                <div class="celula 2">
+                    <p></p>
+                </div>
+                <div class="celula 3">
+                    <p></p>
+                </div>
+                <div class="celula 4">
+                    <p></p>
+                </div>
+                <div class="celula 5">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="linha 5">
+                <div class="celula 1">
+                    <p></p>
+                </div>
+                <div class="celula 2">
+                    <p></p>
+                </div>
+                <div class="celula 3">
+                    <p></p>
+                </div>
+                <div class="celula 4">
+                    <p></p>
+                </div>
+                <div class="celula 5">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div id="entrada">
+            <form action="#" method="post" id="formulario">
+                <div> 
+                    <label for="palavra" class="textLabel">Palavra palpite</label>
+                    <input type="text" id="palavra" class="boxP" name="palavra" autocomplete="off"
+                        placeholder="Insira a palavra palpite">
+                </div>
+                <div class="row form-group">
+                    <div class="col-lg-12 col-12">
+                        <button type="button" class="botao float-right" onclick="palpite()">Chutar</button>
+                    </div>
+                </div>
+
+                <!--<div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="palavra" class="textlabel">Palavra palpite</label>
+                        <input type="text" id="palavra" class="box" name="palavra" autocomplete="off" placeholder="Insira a palavra palpite">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-lg-6 col-12">
+                        <button type="button" class="botao float-right" onclick="palpite()">Chutar</button>
+                    </div>
+                </div> -->
+            </form>
+          
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery.mask.js"></script>
+<script type="text/javascript" src="termo.js"></script>
+
+</html>

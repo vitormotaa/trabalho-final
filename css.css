@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: "arial";
+}
+
+a{
+    text-decoration: none;
+}
+
+#fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem;
+}
+
+#cabecalho{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.6rem;
+}
+
+#cabecalho h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#cabecalho2{
+    text-align: start;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.5rem;
+}
+
+#cabecalho2 h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.textLabel{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.box{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    border: solid 1px black;
+    margin-bottom: 0.5rem;
+}
+
+.box:focus{
+    border-color: blue;
+    box-shadow: 0 0 0 0.1rem rgba(47, 78, 255, 0.2);
+}
+
+.box2{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 0.3rem;
+    border: solid 2px black;
+}
+
+.box2:focus{
+    border-color: blue;
+    box-shadow: 0 0 0 0.1rem rgba(47, 78, 255, 0.2);
+}
+
+.box1{
+    width: 100%;
+    padding: 3px;
+    outline: none;
+    background-color: lightgray;
+    border-radius: 0.3rem;
+}
+
+
+.botao{
+    padding: 0.2rem;
+    background-color: rgb(204, 204, 204);
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.botao:hover{
+    box-shadow: 0 0 0 0.1rem rgba(31, 100, 228, 0.2); 
+}
+
+.botao:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 0 0.1rem rgba(47, 78, 255, 0.2); 
+}   
+
+.botao1{
+    padding: 0.2rem;
+    background-color: rgb(204, 204, 204);
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    margin-top: 2rem;
+}
+
+.botao1:hover{
+    box-shadow: 0 0 0 0.1rem rgba(31, 100, 228, 0.2); 
+}
+
+.botao1:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 0 0.1rem rgba(47, 78, 255, 0.2); 
+}   
+
+
+.direita{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*pagina principal*/
+
+.navbar{
+    background-color: rgb(88, 88, 88);
+}
+
+#titulo{
+    padding-top: 1rem;
+}
+
+#corpo{
+    display: grid;
+    margin: auto;
+    width: 55%;
+    grid-template-areas:  "titulo"
+                          "grade"
+                         "entrada";
+    grid-template-rows: auto;
+    grid-gap: 0.5rem;
+}
+
+
+#titulo{
+    grid-area: titulo;
+    justify-self: center;
+}
+
+#grade{
+    display: grid;
+    grid-area: grade;
+    margin: auto;
+    width: 50%;
+    grid-template-areas: "1"
+                         "2"
+                         "3"
+                         "4"
+                         "5";
+    grid-gap: 0.1rem;
+}
+
+#entrada{
+    grid-area: entrada;
+    margin: auto;
+    width:40%;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    display: grid;
+    grid-template-areas: "1 2 3 4 5" ;
+    grid-gap: 0.1rem;
+}
+
+.celula{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.ausente{
+    background-color: rgb(145, 145, 145);
+}
+
+.fora{
+    background-color: rgb(233, 195, 7);
+}
+
+.certo{
+    background-color: rgb(0, 194, 0);
+}
+
+.boxP{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    border: solid 1px black;
+    margin-bottom: 0.5rem;
+}
+
+.boxP:focus{
+    border-color: blue;
+    box-shadow: 0 0 0 0.1rem rgba(47, 78, 255, 0.2);
+}
